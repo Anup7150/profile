@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Playfair+Display&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@1,100&display=swap');
+
+body {
+  background-image: url("./images/meghraj-neupane-YtEzq-hnv5k-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Playfair Display', serif;
+  font-weight: lighter;
+  color: white;
+  display: block;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(238, 241, 241);
+  transition: 0.5s;
+
+}
+
+a:hover {
+  color: rgb(64, 58, 58);
+  transform: scale(1.5);
+}
+
+h1,
+h2 {
+
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  line-height: 10px;
+  font-weight: 900px;
+}
+
+.img-circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+#profile-info {
+  background: white;
+  /* White background */
+  padding: 30px;
+  /* Internal space */
+  border-radius: 4px;
+  /* Small radius */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+.card {
+  background: #666461;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  margin: 30px auto;
+  text-align: center;
+  width: 50%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  border-radius: 10px;
+
+}
+
+.list-inline li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 40px;
+  margin-top: 10px;
+
+
+}
+
+.fa-facebook,
+.fa-github,
+.fa-instagram {
+  font-size: 40px;
+}
+
+.discover-link {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+p {
+  display: block;
+  padding: 15px 20px;
+  text-align: justify;
+}
+
+
+button {
+  text-align: center;
+  color: rgb(234, 31, 31);
+  background-color: #52504f;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+@media (max-width: 960px) {
+
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0px auto;
+  }
+}
